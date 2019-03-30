@@ -13,3 +13,24 @@ F(n) = H9n) + G(n)
 with : F(n) as estimation of total cost from n path to goal;
        H(n) as Estimation cost to n goal;
        G(n) as Total cost to get to n.
+
+Code Explanation : 
+
+#include <bits/stdc++.h>
+using namespace std;
+typedef vector<int> vi;
+typedef vector<vi> vvi;
+vvi goal;
+string c[4] {"U , "D" , "R" , "L"};
+int N;
+       dx[4] {0, 0, 1, -1};
+       dy[4] {-1, 1, 0, 0};
+map<vvi, int> visit;
+       
+We make a code to make a move like "U" for up, "D" for down, "R" for right, and "L" for left
+
+and to count the heuristic we use manhattanDist (inline 33 until 47)
+and we use State Astar for calculating the shortest distance to goal state.
+
+From this Quiz we know that making game is hard, so we must apreciate every game maker and dont judge them by just their game
+and from this quiz we know how to make AI for the game.
