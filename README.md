@@ -16,16 +16,7 @@ with : F(n) as estimation of total cost from n path to goal;
 
 Code Explanation : 
 
-#include <bits/stdc++.h>
-using namespace std;
-typedef vector<int> vi;
-typedef vector<vi> vvi;
-vvi goal;
-string c[4] {"U , "D" , "R" , "L"};
-int N;
-       dx[4] {0, 0, 1, -1};
-       dy[4] {-1, 1, 0, 0};
-map<vvi, int> visit;
+![foto coding](https://user-images.githubusercontent.com/48561004/55276544-6f70bc80-5327-11e9-9c2a-e2581c2c0349.png)
        
 We make a code to make a move like "U" for up, "D" for down, "R" for right, and "L" for left
 
